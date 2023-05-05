@@ -1,0 +1,758 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Varela Round', sans-serif;
+}
+
+header {
+    background-color: #fff;
+    height: fit-content;
+    padding: 20px 6vw;
+}
+
+section {
+    height: fit-content;
+    padding: 20px 7vw;
+}
+
+/* ################## NAV BAR ################### */
+nav {
+    display: flex;
+}
+
+.nav__title-div {
+    flex: 0.2;
+    /* background-color: orange; */
+    display: flex;
+    align-items: center;
+}
+
+.nav__logo {
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    background-image: url('../images/logo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nav__title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #545ce9;
+    margin-left: 20px;
+}
+
+.nav__links {
+    flex: 1;
+    /* background-color: grey; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav__links ul {
+    display: flex;
+    list-style: none;
+    margin: auto;
+}
+
+.nav__links ul li {
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 40px;
+}
+
+.nav__buttons {
+    flex: 0.35;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: end;
+}
+
+.nav__buttons button {
+    background-color: #545ce9;
+    color: #fff;
+    border: 1px solid #545ce9;
+    height: 40px;
+    font-size: 12px;
+    padding: 10px 30px;
+    border-radius: 40px;
+    margin-left: 20px;
+}
+
+/* ###################### HERO SECTION ################################### */
+.hero {
+    background-color: aliceblue;
+    display: flex;
+}
+
+.hero__div1 {
+    background-color: aqua;
+    flex: 0.5;
+}
+
+.hero__div2 {
+    flex: 1;
+    background-color: aquamarine;
+}
+
+.hero__div1 h1 {
+    font-size: 60px;
+    margin-top: 100px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    /* margi: 40px; */
+}
+
+.hero__div1 p {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    color: #535353;
+    margin-right: 40px;
+}
+
+.hero__buttons-div button {
+    height: 60px;
+    padding: 10px 40px;
+    border: 0px;
+    border-radius: 40px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #545ce9;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.hero__play {
+    width: 40px;
+    height: 40px;
+    background-color: yellow;
+    border-radius: 50px;
+    margin-left: 20px;
+}
+
+.hero__start-button {
+    display: flex;
+}
+
+.hero__benefits-div {
+    display: flex;
+
+}
+
+.hero__benefits-item {
+    display: flex;
+    background-color: yellow;
+    margin-left: 20px;
+}
+
+.hero__benefits-item p {
+    font-size: 14px;
+    font-weight: 600;
+    color: #000;
+}
+
+/* ################################### WHY SECTION ########################## */
+.why-section {
+    display: flex;
+    /* background-color: #ccc; */
+    padding-top: 100px;
+}
+
+.why-section__div1 {
+    background-color: #fff;
+    flex: 0.5;
+    margin-right: 40px;
+}
+
+.why-section__div1 h2 {
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    margin-top: 50px;
+}
+
+.why-section__div1 p {
+    font-size: 20px;
+    color: #535353;
+    margin-bottom: 40px;
+}
+
+.why-section__div1 button {
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    background-color: #545ce9;
+    height: 50px;
+    padding: 10px 60px;
+    border: 0px;
+    border-radius: 40px;
+}
+
+.why-section__circles-div {
+    /* background-color: #000; */
+    height: 230px;
+    padding: 40px;
+    position: relative;
+}
+
+.why-section__circle1 {
+    background-color: #f8cc34;
+    height: 170px;
+    width: 180px;
+    border-radius: 100px;
+    position: absolute;
+    top: 10px;
+    left: -70px;
+}
+
+.why-section__circle2 {
+    background-color: #088ccc;
+    height: 50px;
+    width: 60px;
+    border-radius: 70px;
+    position: absolute;
+    top: 180px;
+    left: 120px;
+}
+
+.why-section__grid-container {
+    /* background-color: #1194aa; */
+    flex: 1;
+    display: grid;
+    grid-template-columns: 25vw 25vw;
+    grid-template-rows: 35vh 35vh;
+    /* gap: 40px; */
+}
+
+.why-section__grid-item {
+    /* border: 1px solid #000; */
+    margin-left: 100px;
+    margin-bottom: 40px;
+    height: fit-content;
+    padding: 10px 20px;
+}
+
+.why-section__icon {
+    width: 100px;
+    height: 90px;
+    background-color: #e4e4f4;
+    border-radius: 70px;
+    margin-bottom: 20px;
+}
+
+.why-section__grid-item h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.why-section__grid-item p {
+    font-size: 15px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+/* ############################# COURSES SECTION ###########################*/
+.courses-section {
+    background-color: #545cec;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    height: fit-content;
+}
+
+.courses-section h2 {
+    text-align: center;
+    font-size: 45px;
+    color: #fff;
+    margin: auto;
+}
+
+.courses-section__courses-slide {
+    /* background-color: #000; */
+    margin: auto;
+    display: flex;
+    margin-top: 20px;
+    padding: 40px;
+}
+
+.courses-section__course-div {
+    flex: 1;
+    /* background-color: #fff; */
+    margin-left: 20px;
+    height: 600px;
+    position: relative;
+}
+
+.courses-section__image {
+    /* background-color: #000; */
+    height: 550px;
+    border-radius: 250px;
+    width: 440px;
+    position: absolute;
+    top: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.course1 {
+    background-image: url('../images/course1.png');
+}
+
+.course2 {
+    background-image: url('../images/course2.png');
+}
+
+.course3 {
+    background-image: url('../images/course3.png');
+}
+
+.courses-section__course-details {
+    background-color: #fff;
+    padding: 20px;
+    height: fit-content;
+    width: 400px;
+    position: absolute;
+    top: 270px;
+    padding-bottom: 40px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.courses-section__tag1 {
+    height: fit-content;
+    width: fit-content;
+    font-size: 14px;
+    padding: 10px 20px;
+    border: 0px;
+    border-radius: 50px;
+    background-color: #e4f4fc;
+    color: rgb(5, 160, 238);
+}
+
+.courses-section__course-tags {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.courses-section__course-details h3 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.courses-section__profile-div {
+    /* background-color: #000; */
+    display: flex;
+    margin-bottom: 35px;
+}
+
+.profile-div__div1 {
+    flex: 0.8;
+    display: flex;
+    /* background-color: orange; */
+
+}
+
+.profile-div__div2 {
+    flex: 0.8;
+    display: flex;
+    /* background-color: yellow; */
+    align-items: center;
+    color: #333333;
+
+}
+
+.profile-div__div1 img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    /* background-color: #000; */
+    margin-right: 10px;
+}
+
+.profile-div__div1 div p {
+    font-weight: 600;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.profile-div__div1 div p {
+    color: #535353;
+    font-size: 12px;
+}
+
+.course-details__price-div {
+    /* background-color: #000; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.course-details__price-div button {
+    border-radius: 25px;
+    padding: 15px 30px;
+    background-color: #545cec;
+    color: #fff;
+    font-size: 16px;
+    border: 0px;
+}
+
+.course-details__price-div p {
+    border-radius: 25px;
+    padding: 15px 30px;
+    color: #545cec;
+    font-size: 20px;
+    border: 0px;
+}
+
+.courses-section__slider-buttons {
+    /* background-color: #000; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.courses-section__slider-buttons button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 0px;
+    background-color: #fff;
+    margin: 0px 10px;
+    font-size: 20px;
+    color: #545ce9;
+}
+
+/* ########################## Benefits Section ####################### */
+.benefit-section {
+    /* background-color: #333333; */
+    height: fit-content;
+    display: flex;
+    padding-top: 80px;
+    padding-bottom: 120px;
+}
+
+.benefit-section__div1 {
+    /* background-color: #088ccc; */
+    flex: 0.7;
+    padding-top: 80px;
+}
+
+.benefit-section__div1 h2 {
+    font-size: 50px;
+    margin-bottom: 40px;
+    background-color: #fff;
+    width: 400px;
+}
+
+.benefit-section__div1 p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    background-color: #fff;
+    width: 480px;
+    line-height: 30px;
+}
+
+.benefit-section__div2 {
+    background-color: #f8cc34;
+    flex: 1;
+}
+
+.benefit-section__perk {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.benefit-section__perk div {
+    width: 40px;
+    height: 40px;
+    background-color: #f8cc34;
+    color: #fff;
+    border-radius: 40px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ########################### TESTIMONIAL SECTION #######################*/
+.testimonial-section {
+    /* background-color: #333333; */
+    height: fit-content;
+    display: flex;
+    padding-top: 80px;
+    padding-bottom: 120px;
+}
+
+.testimonial-section__div2 {
+    /* background-color: #088ccc; */
+    flex: 0.7;
+    padding-top: 80px;
+}
+
+.testimonial-section__div2 h2 {
+    font-size: 50px;
+    margin-bottom: 40px;
+    background-color: #fff;
+    width: 550px;
+}
+
+.testimonial-section__div2 h3 {
+    font-size: 30px;
+    margin-bottom: 40px;
+    background-color: #fff;
+    width: 500px;
+}
+
+.testimonial-section__div2 p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    width: 520px;
+    line-height: 30px;
+}
+
+.testimonial-section__div1 {
+    background-color: #f8cc34;
+    flex: 0.9;
+}
+
+.testimonial-section__profile {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    /* margin-bottom: 10px;     */
+}
+
+.testimonial-section__profile div {
+    /* background-color: #333333; */
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 40px;
+    /* margin-left: 20px; */
+}
+
+.testimonial-section__profile p {
+    color: #535353;
+    font-size: 14px;
+    font-weight: 200;
+    padding-top: 0px;
+}
+
+.testimonial-section__profile img {
+    width: 50px;
+    height: 50px;
+    /* background-color: #f8cc34; */
+    color: #fff;
+    border-radius: 50px;
+    margin-right: 20px;
+}
+
+/* ##################### JOIN NOW SECTION ####################### */
+.join-now {
+    /* background-color: #333333; */
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+
+.join-now__div1 {
+    background-color: #545ce9;
+    height: fit-content;
+    padding: 70px 80px;
+    border-radius: 150px;
+    display: flex;
+}
+
+.join-now__h2-div {
+    flex: 1;
+    /* background-color: #000; */
+    height: fit-content;
+}
+
+.join-now__input-div {
+    display: flex;
+    align-items: center;
+    flex: 0.5;
+}
+
+.join-now__div1 div h2 {
+    width: 550px;
+    font-size: 50px;
+    color: #fff;
+    word-spacing: 5px;
+}
+
+.join-now__email-input {
+    background-color: #fff;
+    height: fit-content;
+    padding: 10px 20px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.join-now__email-input input {
+    background-color: #fff;
+    height: 40px;
+    width: 250px;
+    border: 0px;
+}
+
+.join-now__email-input button {
+    background-color: #545ce9;
+    padding: 20px 40px;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    border: 0px;
+    /* font-weight: 600; */
+}
+
+/* ############################ FOOTER SECTION ######################## */
+footer {
+    /* background-color: #000022; */
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+.footer__div1 {
+    display: flex;
+    padding: 20px 6vw;
+}
+
+.footer__logo {
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    background-image: url('../images/logo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.footer__title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #545ce9;
+    margin-left: 20px;
+}
+
+.footer__titlediv {
+    flex: 0.3;
+    /* background-color: aqua; */
+}
+
+.footer__titlediv h4 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 30px;
+    width: 300px;
+    color: #535353;
+    margin-bottom: 20px;
+}
+
+.footer__titlediv p {
+    font-size: 14px;
+    color: #aaa;
+    margin-bottom: 10px;
+}
+
+.footer__titlediv i {
+    font-size: 20px;
+    color: #535353;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.footer__tour {
+    flex: 0.2;
+}
+
+.footer__tour h3 {
+    font-size: 20px;
+    color: #000022;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.footer__tour ul li {
+    line-height: 40px;
+    list-style: none;
+    color: #535353;
+    font-size: 16px;
+}
+
+.footer__subscribe {
+    flex: 0.2;
+
+}
+
+.footer__subscribe h3 {
+    flex: 0.2;
+    font-size: 20px;
+    color: #000022;
+    margin-bottom: 20px;
+
+}
+
+.footer__subscribe p {
+    font-size: 16px;
+    color: #535353;
+    margin-bottom: 30px;
+    width: 250px;
+    line-height: 30px;
+}
+
+.footer__subscribe div {
+    padding: 6px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 40px;
+    border: 1px solid #000;
+    height: fit-content;
+    width: 250px;
+}
+
+.footer__subscribe input {
+    border: 0px;
+    height: 40px;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #000;
+    opacity: 1; /* Firefox */
+  }
+
+.footer__subscribe button {
+    border: 0px;
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+    background-color: #545ce9;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    /* margin-top: 10px; */
+}
+
+.footer__div2 {
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000022;
+    font-size: 20px;
+
+}
