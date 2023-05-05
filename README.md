@@ -2,4 +2,4 @@
 A landing page for Ed_Tech - a hypothetical E-Learning Company
 
 ## Demo: 
-Link: https://edtech-landing.netlify.app
+Link: https://edtech-landing1.netlify.app
