@@ -1167,7 +1167,7 @@ body {
         background-color: #fff;
         height: fit-content;
         padding: calc(0.625rem * 0.80) calc(1.25rem * 0.80);
-        border-radius: calc(2.5rem * 0.80);
+        border-radius: calc(3rem * 0.80);
         display: flex;
         align-items: center;
     }
@@ -1216,8 +1216,8 @@ body {
         height: calc(14rem*0.8);
         border-radius: 50%;
         position: absolute;
-        top: calc(-3rem*0.8);
-        left: calc(74rem*0.8);
+        top: calc(-3rem*0.7);
+        left: calc(74.5rem*0.7);
         transform: rotate(45deg);
         /* background-color: transparent; */
         z-index: 0;
@@ -1226,13 +1226,13 @@ body {
         border: 1px solid black;
         width: calc(12rem*0.8);
         height: calc(15rem*0.8);
-        top: calc(-3rem*0.8);
-        left: calc(72.5rem*0.8);
+        top: calc(-3rem*0.75);
+        left: calc(73.5rem*0.7);
     }
     .join-now__div1::before {
         content: "";
         border: calc(8rem*0.8) solid white;
-        padding: calc(8.8rem * 0.80) calc(40rem * 0.80);
+        padding: calc(8.7rem * 0.80) calc(40rem * 0.75);
         border-radius: calc(15.8rem * 0.80);
         position: absolute;
         z-index: 1;
